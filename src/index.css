@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.vendor{
+  background-color: darkslategrey;
+  text-align: center;
+  
+ 
+}
+
+.vendor-icon{
+  left: 15px;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+.player-icon {
+  float: right;
+}
+.list {
+  background-position: center;
+  text-align: center;
+}
+
+/* .header{
+  display: flex;
+} */
