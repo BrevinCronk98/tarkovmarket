@@ -13,7 +13,7 @@ class MerchControl extends React.Component {
 
         return(
            <React.Fragment>
-
+               
             <MerchList />
            </React.Fragment>
         )

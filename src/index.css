@@ -1,31 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 
 .vendor{
   background-color: darkslategrey;
   text-align: center;
-  
- 
 }
 
 .vendor-icon{
   left: 15px;
+  margin-bottom: 1%;
+  border-radius: 2%;
 }
 
 body {
-  background-color: cadetblue;
+  background-color:pink;
 }
 
 .player-icon {
@@ -36,6 +22,9 @@ body {
   text-align: center;
 }
 
-/* .header{
-  display: flex;
-} */
+#item-grid {
+  margin-top: 1%;
+  background-color: cadetblue;
+  width: 15%;
+  border-radius: 9%;
+}

@@ -1,18 +1,19 @@
 import React from 'react';
 import Header from './Header';
 import MerchControl from './MerchControl'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
     return (
         <React.Fragment>
 
-            <div class="header">
+            <div className="header">
             <Header />
             </div>
         
 
-        <div class="item-grid">
+        <div className="container" id='item-grid'>
         <MerchControl />
         </div>
         
