@@ -3,9 +3,9 @@ import Merch from './Merch';
 import paca from '../PACA.png';
 import ssh from '../ssh.png';
 import slick from '../slick.png';
-import gen4 from '../Gen4assault.png'
-import tv110 from '../Wartech_TV-110_plate_carrier_icon.png'
-import PropTypes from 'prop-types'
+import gen4 from '../gen4.png';
+import tv110 from '../tv110.png';
+import PropTypes from 'prop-types';
 
 
 
@@ -33,6 +33,22 @@ const ragManVendor = [
         itemCost: 65000,
         itemQuant: 10,
         itemPhoto: slick
+    },
+
+    {
+        itemName: "Gen4 Assault Armor",
+        itemDesc: "Class 5 Throax Armor",
+        itemCost: 45000,
+        itemQuant: 10,
+        itemPhoto: gen4
+    },
+
+    {
+        itemName: "Wartech TV-110 Plate Carrier",
+        itemDesc: "Class 5 Plate Carrier",
+        itemCost: 65000,
+        itemQuant: 10,
+        itemPhoto: tv110
     }
 ]
 
