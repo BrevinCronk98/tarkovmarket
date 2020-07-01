@@ -13,6 +13,9 @@
 body {
   background-color:pink;
 }
+#btn { 
+  border-radius:15px;
+}
 
 .player-icon {
   float: right;
@@ -26,5 +29,5 @@ body {
   margin-top: 1%;
   background-color: cadetblue;
   width: 15%;
-  border-radius: 9%;
+  border-radius: 15px;
 }

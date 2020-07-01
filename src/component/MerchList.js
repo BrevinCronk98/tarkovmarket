@@ -3,6 +3,9 @@ import Merch from './Merch';
 import paca from '../PACA.png';
 import ssh from '../ssh.png';
 import slick from '../slick.png';
+import gen4 from '../Gen4assault.png'
+import tv110 from '../Wartech_TV-110_plate_carrier_icon.png'
+import PropTypes from 'prop-types'
 
 
 
@@ -33,7 +36,7 @@ const ragManVendor = [
     }
 ]
 
-function MerchList(){
+function MerchList(props){
     return(
         <React.Fragment>
             {ragManVendor.map((merch,index) =>
@@ -47,5 +50,10 @@ function MerchList(){
         </React.Fragment>
     )
 }
+MerchList.propTypes = {
+    merchList: PropTypes.array
+}
+
+
 
 export default MerchList;
